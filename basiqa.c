@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main (void)  {
-	double q1, q2, q3, q4, q5, q6, q7, q8, q9, o2, cf, ph, dbo, ft, nt, tu, deltaT, st, TOTAL;
+	double q1, q2, q3, q4, q5, q6, q7, q8, q9, OXIGENIO, cf, ph, dbo, ft, nt, tu, deltaT, st, TOTAL;
 
 	     printf("coliformes fecais :");
 	     scanf("%lf", &cf);
@@ -27,7 +27,7 @@ int main (void)  {
 	     	q3 = 2.0;
 
 	    }else{ 
-	     	q3 = 102.6 * exp(-0.01101 * dbo);
+	     	q3 = 102.6 * exp(-0.1101 * dbo);
 	     	}
           printf("FT :");
           scanf("%lf", &ft);
@@ -68,6 +68,9 @@ int main (void)  {
         }else{
         	q8 =  (80.26 * exp( ((-0.00107) * st) + (0,03009 * sqrt(st)) ) + (-0,1185) * st );
             }
+            printf("oxigenio :");
+            scanf("%lf", OXIGENIO);
+              if (OXIGENIO >)
 
 }
 
