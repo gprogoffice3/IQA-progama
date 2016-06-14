@@ -1,2 +1,3 @@
-# IQA-progama
-progam de iqa
+# Programa IQA
+O programa desenvolvido, tem a função de, através de calculos matemáticos, apresentar de forma clara os resultados obtidos através do calculo do iqa (Índice de Qualidade da Água), visando indicar com clareza a qualidade bruta da água, que por sua vez, é destinad para o abastecimento público. O programa posssui uma interface simples e de fácil manuseio por parte do usúario, retornando resultados mais precisos. Todas as ferramentas e informações necessárias coletadas para o desenvolvimento do programa foram obtidas através do documento disponível no seguinte link: http://inf.ufrgs.br/~rgrunitzki/papers/grunitzki&2013.pdf
+
