@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 
+
+//DEFINIÇÃO DE VALORES
 int main (void)  {
   double q1, q2, q3, q4, q5, q6, q7, q8, q9, OXIGENIO, cf, ph, dbo, ft, nt, tu, deltaT, st, TOTAL;
 
+       // 
        printf("coliformes fecais :");
        scanf("%lf", &cf);
           if (cf > 100000) {
